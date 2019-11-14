@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_login.*
+import kotlinx.android.synthetic.main.activity_signup.*
 
 class LoginActivity : AppCompatActivity() {
 
@@ -11,7 +12,9 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
         btn_login.setOnClickListener {
-            startActivity(Intent(this, HomeActivity::class.java))
+            val i = Intent( this, HomeActivity::class.java)
+            i.putExtra("isi", u_name.text.toString())
+            startActivity(i)
         }
     }
 

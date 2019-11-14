@@ -12,7 +12,9 @@ class SignupActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signup)
         btn_signup.setOnClickListener {
-            startActivity(Intent(this, HomeActivity::class.java))
+            val i = Intent( this, HomeActivity::class.java)
+            i.putExtra("isi", name.text.toString())
+            startActivity(i)
         }
     }
 }
