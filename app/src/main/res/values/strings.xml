@@ -14,4 +14,22 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+
+        <string-array name="my_blog">
+            <item>Blog 1</item>
+            <item>Blog 2</item>
+            <item>Blog 3</item>
+            <item>Blog 4</item>
+            <item>Blog 5</item>
+            <item>Blog 6</item>
+            <item>Blog 7</item>
+            <item>Blog 8</item>
+            <item>Blog 9</item>
+            <item>Blog 10</item>
+            <item>Blog 11</item>
+            <item>Blog 12</item>
+            <item>Blog 13</item>
+            <item>Blog 14</item>
+            <item>Blog 15</item>
+        </string-array>
 </resources>
