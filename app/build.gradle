@@ -36,6 +36,8 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
     implementation 'androidx.navigation:navigation-fragment-ktx:2.1.0'
     implementation 'androidx.navigation:navigation-ui-ktx:2.1.0'
+    // Floating Button
+    implementation 'com.robertlevonyan.view:CustomFloatingActionButton:3.0.0'
     // Circular Image
     implementation 'com.mikhaellopez:circularimageview:4.0.2'
     implementation 'com.squareup.picasso:picasso:2.71828'

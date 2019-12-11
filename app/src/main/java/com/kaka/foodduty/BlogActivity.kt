@@ -21,6 +21,8 @@ class BlogActivity : AppCompatActivity() {
 
         val adapter = RvAdapter(list)
         risekel.adapter = adapter
+
+
     }
 
     private fun retrieve() : ArrayList<Blog>{

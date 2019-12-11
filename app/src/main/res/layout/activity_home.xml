@@ -47,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_margin="5dp"
-        android:text="Articles"
+        android:text="Blog"
         tools:ignore="HardcodedText"
         android:background="@color/colorPrimaryLight"/>
 </LinearLayout>

@@ -14,7 +14,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".BlogActivity"></activity>
+        <activity android:name=".ScanActivity"></activity>
+        <activity android:name=".EditActivity" />
+        <activity
+            android:name=".KonsulActivity"
+            android:label="Consultation" />
+        <activity
+            android:name=".HitungActivity"
+            android:label="Calorie" />
+        <activity
+            android:name=".BlogActivity"
+            android:label="Blog" />
         <activity
             android:name=".SplashActivity"
             android:noHistory="true"
